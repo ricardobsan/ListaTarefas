@@ -191,3 +191,16 @@
     
 }
 
+@media(max-width:430px){
+
+
+    .popup {
+
+   
+        width: 50%;
+        height: 20vh;
+     
+        
+    }
+}
+
