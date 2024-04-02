@@ -1,0 +1,193 @@
+
+
+/* botao informação*/
+#infoBtn {
+    width: 30px;
+    position: fixed;
+    top: 18px;
+    right: 18px;
+
+}
+
+#infoBtn:hover {
+    width: 35px;
+    transition: 260ms;
+}
+
+/* div do popup */
+.popup {
+
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    color: white;
+    
+}
+
+/*caixa do popup*/
+#container2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infR a{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+   
+}
+.infDev h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    padding: 5px;
+}.infDev a{
+    margin: 8px;
+}
+.box h1{
+    margin: 10px;
+}
+
+
+/*boatao fechar popup*/
+#fechar1 {
+    background-color: #000000;
+    color: rgb(255, 251, 10);
+    font-size: 30px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    border: none;
+
+}
+
+#container2.active {
+    display: flex;
+}
+
+.lkdn{
+    width: 30px;
+}
+.lkdn:hover{
+    width: 33px;
+    transition: 260ms;
+}
+
+
+
+@media(max-width: 874px){
+  
+    .popup{
+        font-size: 0.9em;
+    }
+    .container2{
+        padding: 0;
+        margin:0;
+    }
+    .lkdn{
+        width: 25px;
+    }
+    .box{
+        font-size: 0.5em;
+    }
+}
+@media(max-width: 804px){
+  
+    .popup{
+        font-size: 0.9em;
+    }
+    .container2{
+        padding: 0;
+        margin:0;
+    }
+    .lkdn{
+        width: 20px;
+    }
+    .lkdn:hover{
+        width: 23px;
+        transition: 260ms;
+    }
+
+    .imgLg{
+        display: flex;
+        margin: 1px;
+        justify-content: center;
+       
+                 
+    }
+    .infDev h2{
+        
+        margin: 0;
+        padding: 0;
+    }
+    #fechar1{
+        font-size: 15px;
+    }
+   
+}
+
+@media(max-width: 650px){
+
+    .popup {
+
+        border-radius: 18px;
+        padding: 5px;
+        width: 50%;
+        height: 65vh;
+        color: white;
+        
+    }
+}
+@media(max-width: 420px){
+
+    .popup {
+        border-radius: 10px;
+        padding: 0;
+        width: 60%;
+        height: 75vh;
+        color: white;  
+    }
+
+    .box {
+        font-size: 0.1em;  
+    }
+
+    .lkdn{
+        width: 12px;
+    
+    }
+    .lkdn:hover{
+        width: 14px;
+        transition: 260ms;
+    }
+    #fechar1{
+        font-size: 10px;
+    }
+   
+    
+}
+
